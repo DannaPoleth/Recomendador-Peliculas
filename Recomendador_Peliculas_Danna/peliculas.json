@@ -1,0 +1,243 @@
+
+[
+  {
+    "id": 1,
+    "titulo": "Intensamente",
+    "genero": "Drama",
+    "minEdad": 2,
+    "anio": 2015,
+    "director": "Pete Docter",
+    "descripcion": "Riley descubre cómo sus emociones la ayudan a adaptarse a una nueva etapa.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 2,
+    "titulo": "Toy Story",
+    "genero": "Comedia",
+    "minEdad": 2,
+    "anio": 1995,
+    "director": "John Lasseter",
+    "descripcion": "Un grupo de juguetes vive aventuras cuando su dueño no está.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 3,
+    "titulo": "Coco",
+    "genero": "Musical",
+    "minEdad": 7,
+    "anio": 2017,
+    "director": "Lee Unkrich",
+    "descripcion": "Miguel viaja al mundo de los muertos para descubrir la historia de su familia.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 4,
+    "titulo": "Zootopia",
+    "genero": "Crimen",
+    "minEdad": 7,
+    "anio": 2016,
+    "director": "Byron Howard y Rich Moore",
+    "descripcion": "Una coneja policía y un zorro resuelven un misterio en la ciudad.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 5,
+    "titulo": "Wonder",
+    "genero": "Drama",
+    "minEdad": 7,
+    "anio": 2017,
+    "director": "Stephen Chbosky",
+    "descripcion": "Un niño aprende a superar dificultades y hacer amigos en la escuela.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 6,
+    "titulo": "¿Qué pasó ayer?",
+    "genero": "Comedia",
+    "minEdad": 18,
+    "anio": 2009,
+    "director": "Todd Phillips",
+    "descripcion": "Un grupo de amigos intenta reconstruir una noche llena de situaciones inesperadas.",
+    "clasificacion": "C"
+  },
+  {
+    "id": 7,
+    "titulo": "The Greatest Showman",
+    "genero": "Musical",
+    "minEdad": 7,
+    "anio": 2017,
+    "director": "Michael Gracey",
+    "descripcion": "Un espectáculo musical inspirado en la creación de un circo extraordinario.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 8,
+    "titulo": "El padrino",
+    "genero": "Crimen",
+    "minEdad": 18,
+    "anio": 1972,
+    "director": "Francis Ford Coppola",
+    "descripcion": "La historia de la familia Corleone y su influencia en la mafia de Nueva York.",
+    "clasificacion": "C"
+  },
+  {
+    "id": 9,
+    "titulo": "El caballero oscuro",
+    "genero": "Drama",
+    "minEdad": 13,
+    "anio": 2008,
+    "director": "Christopher Nolan",
+    "descripcion": "Batman enfrenta al Joker en las calles de Gotham.",
+    "clasificacion": "B"
+  },
+  {
+    "id": 10,
+    "titulo": "Sing: ¡Ven y canta!",
+    "genero": "Musical",
+    "minEdad": 2,
+    "anio": 2016,
+    "director": "Garth Jennings",
+    "descripcion": "Animales participan en un concurso de canto para salvar un teatro.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 11,
+    "titulo": "Enola Holmes",
+    "genero": "Crimen",
+    "minEdad": 13,
+    "anio": 2020,
+    "director": "Harry Bradbeer",
+    "descripcion": "La hermana de Sherlock Holmes investiga la desaparición de su madre.",
+    "clasificacion": "B"
+  },
+  {
+    "id": 12,
+    "titulo": "Knives Out",
+    "genero": "Crimen",
+    "minEdad": 18,
+    "anio": 2019,
+    "director": "Rian Johnson",
+    "descripcion": "Un detective investiga la muerte de un novelista dentro de una familia peculiar.",
+    "clasificacion": "B"
+  },
+  {
+    "id": 13,
+    "titulo": "Interestelar",
+    "genero": "Ciencia Ficción",
+    "minEdad": 13,
+    "anio": 2014,
+    "director": "Christopher Nolan",
+    "descripcion": "Un equipo de exploradores viaja por un agujero de gusano para buscar un futuro para la humanidad.",
+    "clasificacion": "B"
+  },
+  {
+    "id": 14,
+    "titulo": "Matrix",
+    "genero": "Ciencia Ficción",
+    "minEdad": 13,
+    "anio": 1999,
+    "director": "Lana y Lilly Wachowski",
+    "descripcion": "Un hacker descubre que la realidad que conoce es una simulación controlada por máquinas.",
+    "clasificacion": "B"
+  },
+  {
+    "id": 15,
+    "titulo": "Alien: el octavo pasajero",
+    "genero": "Ciencia Ficción",
+    "minEdad": 18,
+    "anio": 1979,
+    "director": "Ridley Scott",
+    "descripcion": "La tripulación de una nave espacial enfrenta a una criatura peligrosa.",
+    "clasificacion": "C"
+  },
+  {
+    "id": 16,
+    "titulo": "El conjuro",
+    "genero": "Terror",
+    "minEdad": 18,
+    "anio": 2013,
+    "director": "James Wan",
+    "descripcion": "Dos investigadores paranormales ayudan a una familia que vive sucesos aterradores.",
+    "clasificacion": "C"
+  },
+  {
+    "id": 17,
+    "titulo": "El exorcista",
+    "genero": "Terror",
+    "minEdad": 18,
+    "anio": 1973,
+    "director": "William Friedkin",
+    "descripcion": "Una madre busca ayuda cuando su hija presenta un comportamiento inexplicable.",
+    "clasificacion": "C"
+  },
+  {
+    "id": 18,
+    "titulo": "La noche de Halloween",
+    "genero": "Terror",
+    "minEdad": 18,
+    "anio": 1978,
+    "director": "John Carpenter",
+    "descripcion": "Una joven es perseguida por un asesino durante la noche de Halloween.",
+    "clasificacion": "C"
+  },
+  {
+    "id": 19,
+    "titulo": "Mi pobre angelito",
+    "genero": "Comedia",
+    "minEdad": 7,
+    "anio": 1990,
+    "director": "Chris Columbus",
+    "descripcion": "Un niño debe proteger su casa de dos ladrones durante las vacaciones.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 20,
+    "titulo": "Detective Pikachu",
+    "genero": "Crimen",
+    "minEdad": 7,
+    "anio": 2019,
+    "director": "Rob Letterman",
+    "descripcion": "Un joven y un Pokémon detective investigan una misteriosa desaparición.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 21,
+    "titulo": "Wall-E",
+    "genero": "Ciencia Ficción",
+    "minEdad": 2,
+    "anio": 2008,
+    "director": "Andrew Stanton",
+    "descripcion": "Un pequeño robot descubre una aventura que puede cambiar el futuro de la humanidad.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 22,
+    "titulo": "Coraline",
+    "genero": "Terror",
+    "minEdad": 7,
+    "anio": 2009,
+    "director": "Henry Selick",
+    "descripcion": "Una niña descubre un mundo paralelo misterioso detrás de una puerta secreta.",
+    "clasificacion": "B"
+  },
+  {
+    "id": 23,
+    "titulo": "El viaje de Chihiro",
+    "genero": "Drama",
+    "minEdad": 7,
+    "anio": 2001,
+    "director": "Hayao Miyazaki",
+    "descripcion": "Una niña entra a un mundo mágico lleno de criaturas misteriosas.",
+    "clasificacion": "A"
+  },
+  {
+    "id": 24,
+    "titulo": "El libro de la vida",
+    "genero": "Musical",
+    "minEdad": 7,
+    "anio": 2014,
+    "director": "Jorge R. Gutierrez",
+    "descripcion": "Un joven emprende una aventura por mundos mágicos para seguir su corazón.",
+    "clasificacion": "A"
+  }
+]

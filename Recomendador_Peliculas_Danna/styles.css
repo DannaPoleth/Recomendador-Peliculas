@@ -1,0 +1,261 @@
+
+/* ================================
+   ESTILOS GENERALES
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #dce5e8;
+    color: #263238;
+    padding: 35px 20px;
+}
+
+/* ================================
+   CONTENEDOR PRINCIPAL
+================================ */
+
+.contenedor {
+    width: min(950px, 100%);
+    margin: auto;
+    background: #f7f7f7;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(50, 70, 80, 0.15);
+}
+
+/* ================================
+   ENCABEZADO
+================================ */
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 38px;
+    color: #37474f;
+    margin: 0 0 12px;
+    letter-spacing: 1px;
+}
+
+header h2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #607d8b;
+    margin: 0 0 30px;
+}
+
+header h3 {
+    display: inline-block;
+    font-size: 24px;
+    color: #455a64;
+    background: #e7e9ec;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin: 0 0 20px;
+}
+
+header p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #455a64;
+    max-width: 750px;
+    margin: auto;
+}
+
+/* ================================
+   SELECCION DE EDAD
+================================ */
+
+.seleccion {
+    background: #edf1f3;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #d2dce0;
+}
+
+.seleccion label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #37474f;
+}
+
+#edad {
+    width: 150px;
+    padding: 11px;
+    margin-left: 10px;
+    border: 1px solid #aab7bd;
+    border-radius: 7px;
+    background: #ffffff;
+    font-size: 18px;
+    color: #263238;
+    outline: none;
+}
+
+#edad:focus {
+    border-color: #607d8b;
+    box-shadow: 0 0 0 3px rgba(96, 125, 139, 0.15);
+}
+
+/* ================================
+   BOTONES DE GENEROS
+================================ */
+
+.generos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.generos button {
+    background: #e7e9ec;
+    color: #37474f;
+    border: 1px solid #c3cdd2;
+    border-radius: 9px;
+    padding: 16px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.generos button:hover {
+    background: #cbd5e1;
+    color: #263238;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(50, 70, 80, 0.12);
+}
+
+.generos button:active {
+    transform: scale(0.97);
+}
+
+/* ================================
+   SECCION DE RECOMENDACION
+================================ */
+
+.resultado {
+    margin-top: 35px;
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 12px;
+    border: 1px solid #d9e0e3;
+    box-shadow: 0 4px 12px rgba(50, 70, 80, 0.07);
+}
+
+.resultado h2 {
+    font-size: 26px;
+    color: #37474f;
+    margin: 0 0 22px;
+    border-bottom: 2px solid #dce5e8;
+    padding-bottom: 12px;
+}
+
+#pelicula h3 {
+    font-size: 30px;
+    color: #455a64;
+    margin: 0 0 15px;
+}
+
+.detalle {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #546e7a;
+    margin: 10px 0;
+}
+
+/* ================================
+   ETIQUETAS DE CLASIFICACION
+================================ */
+
+.etiqueta {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 16px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #dbeafe;
+    color: #37474f;
+}
+
+.etiqueta.alerta {
+    background: #e7e9ec;
+    color: #455a64;
+    border: 1px solid #c3cdd2;
+}
+
+.instruccion {
+    color: #78909c;
+    font-size: 17px;
+}
+
+/* ================================
+   DISEÑO RESPONSIVO
+================================ */
+
+@media (max-width: 650px) {
+
+    body {
+        padding: 15px 10px;
+    }
+
+    .contenedor {
+        padding: 25px 18px;
+        border-radius: 12px;
+    }
+
+    header h1 {
+        font-size: 29px;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+
+    header h3 {
+        font-size: 21px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    .seleccion {
+        padding: 18px;
+    }
+
+    #edad {
+        width: 110px;
+    }
+
+    .generos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .generos button {
+        font-size: 16px;
+        padding: 14px 8px;
+    }
+
+    .resultado {
+        padding: 20px;
+    }
+
+    .resultado h2 {
+        font-size: 22px;
+    }
+
+    #pelicula h3 {
+        font-size: 25px;
+    }
+}

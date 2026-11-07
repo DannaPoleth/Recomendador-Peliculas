@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomendador de películas | Danna Poleth Librado Hernandez</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="contenedor">
+    <header>
+      <h1>¡Bienvenidos al cine!</h1>
+      <h2>Danna Poleth Librado Hernandez</h2>
+      <h3>--- Menú ---</h3>
+      <p>Queremos hacer de tu visita una experiencia más placentera. Para eso, ingresa tu edad y selecciona el género que más te guste, y te recomendamos tu película ideal.</p>
+    </header>
+
+    <section class="seleccion">
+      <label for="edad">Edad:</label>
+      <input id="edad" type="number" min="2" max="120" value="20" required>
+      <div class="generos">
+        <button data-genero="Drama">Drama</button>
+        <button data-genero="Comedia">Comedia</button>
+        <button data-genero="Musical">Musical</button>
+        <button data-genero="Crimen">Crimen</button>
+        <button data-genero="Ciencia Ficción">Ciencia Ficción</button>
+        <button data-genero="Terror">Terror</button>
+      </div>
+    </section>
+
+    <section class="resultado" aria-live="polite">
+      <h2>Nuestra recomendación:</h2>
+      <div id="pelicula">
+        <p class="instruccion">Selecciona un género para descubrir una película.</p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
